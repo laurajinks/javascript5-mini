@@ -1,7 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export default function FoodItem () {
-    return (
-        <p>{props.foodItem}</p>
-    )
+export default function FoodItem(props) {
+    return <p>{props.foodItem}</p>;
 }
